@@ -95,17 +95,17 @@ airflow scheduler
 Access Airflow at http://localhost:8080.
 Running the Pipeline
 
-    Deploy the DAG Move the DAG file tms_etl_pipeline.py to the dags/ directory in your Airflow home:
+Deploy the DAG Move the DAG file tms_etl_pipeline.py to the dags/ directory in your Airflow home:
 
 ```bash
     cp airflow_dags/tms_etl_pipeline.py $AIRFLOW_HOME/dags/
 ```
-    Trigger the Pipeline
-        Open the Airflow web interface.
-        Locate the DAG tms_etl_pipeline.
-        Turn the DAG "on".
-        Trigger a run by clicking the play button in the DAG's row.
+Trigger the Pipeline
+   - Open the Airflow web interface.
+   - Locate the DAG tms_etl_pipeline.
+   - Turn the DAG "on".
+   - Trigger a run by clicking the play button in the DAG's row.
 
-    Monitor the Pipeline Use the Airflow web interface to monitor task execution status, logs, and any pipeline dependencies.
+Monitor the Pipeline Use the Airflow web interface to monitor task execution status, logs, and any pipeline dependencies.
 
 
